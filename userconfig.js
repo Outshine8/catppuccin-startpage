@@ -125,8 +125,8 @@ const default_configuration = {
               icon_color: palette.green,
             },
             {
-              name: "neptune",
-              url: "https://ui.neptune.ai",
+              name: "dev hints",
+              url: "https://devhints.io",
               icon: "circle-triangle",
               icon_color: palette.peach,
             },
@@ -206,9 +206,9 @@ const default_configuration = {
               icon_color: palette.green,
             },
             {
-              name: "facebook",
-              url: "https://www.facebook.com",
-              icon: "brand-facebook",
+              name: "discord",
+              url: "https://www.discord.com/app",
+              icon: "brand-discord",
               icon_color: palette.peach,
             },
             {
