@@ -18,12 +18,6 @@ const default_configuration = {
     icon_color: palette.maroon,
   },
   additionalClocks: [
-    {
-      label: "UA",
-      timezone: "Europe/Kyiv",
-      format: "h:i",
-      icon_color: palette.peach,
-    },
   ],
   search: {
     engines: {
@@ -74,13 +68,13 @@ const default_configuration = {
             },
             {
               name: "calendar",
-              url: "https://calendar.google.com",
+              url: "https://calendar.notion.so",
               icon: "calendar-filled",
               icon_color: palette.peach,
             },
             {
-              name: "sheets",
-              url: "https://docs.google.com/spreadsheets",
+              name: "mega",
+              url: "https://mega.nz",
               icon: "table",
               icon_color: palette.red,
             },
@@ -177,9 +171,9 @@ const default_configuration = {
           name: "resources",
           links: [
             {
-              name: "dou",
-              url: "https://dou.ua",
-              icon: "brand-prisma",
+              name: "Arch Wiki",
+              url: "https://wiki.archlinux.org",
+              icon: "typography",
               icon_color: palette.green,
             },
             {
