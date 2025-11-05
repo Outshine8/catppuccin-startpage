@@ -10,7 +10,7 @@ let palette = initThemeSystem(preferredLightTheme, preferredDarkTheme);
 const default_configuration = {
   overrideStorage: true,
   temperature: {
-    location: "London",
+    location: "skellefteå",
     scale: "C",
   },
   clock: {
@@ -96,35 +96,23 @@ const default_configuration = {
           name: "media",
           links: [
             {
-              name: "уп",
-              url: "https://www.pravda.com.ua",
-              icon: "news",
+              name: "awesome list",
+              url: "https://awesomelists.top/#/",
+              icon: "border-radius",
               icon_color: palette.green,
             },
             {
-              name: "mil.in.ua",
-              url: "https://mil.in.ua",
-              icon: "badge-filled",
+              name: "fmhy",
+              url: "https://fmhy.net",
+              icon: "triangle-inverted",
               icon_color: palette.peach,
             },
             {
-              name: "куток",
-              url: "https://kutok.io",
-              icon: "border-radius",
+              name: "wotaku",
+              url: "https://wotaku.wiki/",
+              icon: "currency-yen",
               icon_color: palette.red,
-            },
-            {
-              name: "ґрунт",
-              url: "https://grnt.media",
-              icon: "eye-bolt",
-              icon_color: palette.blue,
-            },
-            {
-              name: "village",
-              url: "https://www.village.com.ua",
-              icon: "home-2",
-              icon_color: palette.mauve,
-            },
+            }
           ],
         },
       ],
@@ -201,17 +189,11 @@ const default_configuration = {
               icon_color: palette.peach,
             },
             {
-              name: "uber engineering",
-              url: "https://www.uber.com/en-GB/blog/london/engineering",
-              icon: "brand-uber",
-              icon_color: palette.red,
-            },
-            {
-              name: "netflix tech blog",
-              url: "https://netflixtechblog.com",
-              icon: "brand-netflix",
-              icon_color: palette.blue,
-            },
+              name: "Dev docs",
+              url: "https://devdocs.io/",
+              icon: "zoom-code",
+              icon_color: palette.red
+            }
           ],
         },
       ],
@@ -241,39 +223,16 @@ const default_configuration = {
               icon: "brand-reddit",
               icon_color: palette.red,
             },
-          ],
-        },
-        {
-          name: "gaming",
-          links: [
             {
-              name: "IGN",
-              url: "https://www.ign.com/account/playlist/library",
-              icon: "device-gamepad",
-              icon_color: palette.green,
-            },
-            {
-              name: "steam",
-              url: "https://store.steampowered.com",
-              icon: "brand-steam",
-              icon_color: palette.peach,
-            },
-            {
-              name: "epicgames",
-              url: "https://store.epicgames.com",
-              icon: "brand-fortnite",
-              icon_color: palette.red,
-            },
-            {
-              name: "nintendo",
-              url: "https://store.nintendo.co.uk",
-              icon: "device-nintendo",
+              name: "twitter",
+              url: "https://x.com",
+              icon: "brand-x",
               icon_color: palette.blue,
-            },
+            }
           ],
         },
         {
-          name: "video",
+          name: "Other",
           links: [
             {
               name: "anilist",
@@ -288,15 +247,15 @@ const default_configuration = {
               icon_color: palette.peach,
             },
             {
-              name: "patreon",
-              url: "https://www.patreon.com",
-              icon: "brand-patreon",
+              name: "twitch",
+              url: "https://www.twitch.tv",
+              icon: "brand-twitch",
               icon_color: palette.red,
             },
             {
-              name: "kyivstar",
-              url: "https://tv.kyivstar.ua",
-              icon: "star-filled",
+              name: "wikipedia",
+              url: "https://wikiwand.com",
+              icon: "brand-wikipedia",
               icon_color: palette.blue,
             },
           ],
